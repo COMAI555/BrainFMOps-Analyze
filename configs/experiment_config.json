@@ -1,0 +1,24 @@
+{
+  "project": "BrainFMOps-Analyze",
+  "release_version": "1.0.0",
+  "task": "binary_subject_level_classification",
+  "positive_class": "AD",
+  "negative_class": "CN",
+  "model_architecture": "EfficientNet-B0",
+  "decision_threshold": 0.32,
+  "subject_aggregation": "mean",
+  "num_slices": 16,
+  "evaluation_unit": "subject",
+  "evaluation_subjects": 212,
+  "class_counts": {
+    "CN": 124,
+    "AD": 88
+  },
+  "data_source": "OASIS-1 cross-sectional release",
+  "raw_data_redistributed": false,
+  "notes": [
+    "This public configuration records the recovered evaluation settings.",
+    "It does not restore the optimizer state or the complete development manifest.",
+    "Paths to local data and model checkpoints are intentionally excluded."
+  ]
+}

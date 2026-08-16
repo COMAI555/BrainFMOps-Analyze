@@ -1,0 +1,24 @@
+BrainFMOps-Analyze v1.0.0 release validation summary
+
+Public evaluation verification: PASS
+Subjects: 212
+TP: 73
+TN: 36
+FP: 88
+FN: 15
+Accuracy: 0.514151
+Precision: 0.453416
+Recall: 0.829545
+Specificity: 0.290323
+Brier score: 0.243408
+
+Repository privacy audit: PASS
+Blocking findings: 0
+Warnings: 0
+Stored notebook outputs: 0
+Python compilation errors: 0
+Notebook code-cell syntax errors: 0
+
+This summary validates the public release package only. It does not restore the
+optimizer state, complete development manifest, or full training provenance of
+the archived experiment.

@@ -1,0 +1,30 @@
+# Research data and protected imaging files
+data/
+datasets/
+private_data/
+checkpoints/
+outputs/
+workspace/
+repository_audit_report.txt
+*.nii
+*.nii.gz
+*.hdr
+*.img
+*.dcm
+*.pt
+*.pth
+*.h5
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

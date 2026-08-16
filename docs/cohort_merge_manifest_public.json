@@ -1,0 +1,25 @@
+{
+  "project": "BrainFMOps-Analyze",
+  "release_version": "1.0.0",
+  "data_source": "OASIS-1 cross-sectional release",
+  "released_evaluation_file": "public_data/evaluation_predictions_212_sanitized.csv",
+  "evaluation_id_policy": "Sequential release-only identifiers; original OASIS identifiers are not included.",
+  "ground_truth_column": "ground_truth",
+  "prediction_column": "prediction",
+  "probability_column": "probability_positive",
+  "threshold_column": "locked_threshold",
+  "labelled_subjects": 212,
+  "CN": 124,
+  "AD": 88,
+  "matched_subjects": 212,
+  "unmatched_subjects": 0,
+  "duplicate_prediction_ids": 0,
+  "duplicate_clinical_ids": 0,
+  "all_checks_passed": true,
+  "excluded_fields": [
+    "original subject and scan identifiers",
+    "local filesystem paths",
+    "clinical and demographic fields",
+    "MRI files and derived image volumes"
+  ]
+}
