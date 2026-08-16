@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the software release using the metadata below."
+title: "BrainFMOps-Analyze: A Quality-Aware and Reproducible Pipeline for Subject-Level Brain MRI Classification"
+type: software
+authors:
+  - family-names: "Sira"
+    given-names: "Sirasakamol"
+    affiliation: "Kunming University of Science and Technology, Kunming, China"
+repository-code: "https://github.com/COMAI555/BrainFMOps-Analyze"
+version: "1.0.0"
+date-released: "2026-08-16"
+license: MIT
+keywords:
+  - Brain MRI
+  - MLOps
+  - reproducibility
+  - subject-level classification
+  - OASIS
+abstract: >-
+  BrainFMOps-Analyze is a research prototype for quality-aware and reproducible
+  subject-level brain MRI classification. It provides dataset-readiness checks,
+  leakage-aware subject splitting, model training and inference utilities,
+  subject-level aggregation, explainability, statistical evaluation, and
+  publication-support workflows. The software is intended for research and
+  methodological audit only and is not a medical device or clinical
+  decision-support system.
