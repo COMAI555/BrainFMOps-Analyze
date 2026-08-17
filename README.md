@@ -116,5 +116,6 @@ experiment is therefore only partially reproducible.
 
 ## Citation and licence
 
-Author metadata, `CITATION.cff`, and the final software licence will be added
-after the author order, affiliations, and copyright holder are confirmed.
+Citation metadata are provided in `CITATION.cff`. The software is released
+under the MIT License; see `LICENSE`. The version-specific Zenodo DOI will be
+listed on the GitHub release page and Zenodo record after archival.
